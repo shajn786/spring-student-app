@@ -14,6 +14,15 @@ public class StudentController {
         return "welcome to my website";
     }
 
+
+    @GetMapping("/home")
+    public String Home()
+    {
+        return "welcome to my home";
+    }
+
+
+
     @GetMapping("/contact")
     public  String Contactpage()
     {
