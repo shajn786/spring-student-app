@@ -20,4 +20,11 @@ public class StudentController {
         return "my contact page";
     }
 
+
+    @GetMapping("/gallery")
+    public String Gallery()
+    {
+        return "my gallery";
+    }
+
 }
